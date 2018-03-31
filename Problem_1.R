@@ -17,7 +17,13 @@ wines <- read.csv(file='https://s3.eu-central-1.amazonaws.com/sf-timeseries/data
 
 ## b)
 
+# Example using ifelse
+ifelse(c(TRUE, TRUE, FALSE, TRUE), 'condition TRUE', 'condition FALSE')
+
+
 ## c)
+# Example using table
+table(c('category1', 'category1', 'category2'))
 
 ## d)
 
