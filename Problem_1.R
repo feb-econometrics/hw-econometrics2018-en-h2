@@ -24,11 +24,3 @@ wines <- read.csv(file='https://s3.eu-central-1.amazonaws.com/sf-timeseries/data
 ## e)
 
 ## f)
-
-## g)
-
-## h)
-
-## i)
-
-
