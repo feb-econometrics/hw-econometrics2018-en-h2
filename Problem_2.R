@@ -16,7 +16,7 @@ set.seed()
 
 ## Draw n * R values at random from the standard normal distribution
 ## Note: you need to define n, R and furthermore mu and sigma.
-z <- rnorm(n * R) ## 
+z <- rnorm(n * R)
 x <- exp(mu + sigma * z)
 
 ## x is now a sample of log-normally distibuted population and you can apply
