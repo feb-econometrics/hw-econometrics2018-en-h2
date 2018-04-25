@@ -7,12 +7,17 @@
 library(dplyr)
 library(ggplot2)
 
-# Enter your student ID in set.seed() so that your results are reproducible
-
+# Enter your student ID in set.seed() so that your results are reproducible, i.e. run set.seed(3304)
+## and replace 3304 with your student id.
 set.seed()
 
 # use the rnorm function to generate values from the standard normal distribution
 # you can compute e^x with the exp function, e.g. e^2 = exp(2).
+
+## Draw n * R values at random from the standard normal distribution
+## Note: you need to define n, R and furthermore mu and sigma.
+z <- rnorm(n * R) ## 
+x <- exp(mu + sigma * z)
 
 ## a)
 
