@@ -19,6 +19,9 @@ set.seed()
 z <- rnorm(n * R) ## 
 x <- exp(mu + sigma * z)
 
+## x is now a sample of log-normally distibuted population and you can apply
+## the methods used in the simulation in Problme set 2/Problem 1.
+
 ## a)
 
 ## b)
