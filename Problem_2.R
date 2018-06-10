@@ -52,6 +52,9 @@ ggplot(data = samplesSummary, aes(x = sampleMean)) +
 
 ## The distribution of the sample means is roughly symmetrical 
 ## and is centered close to the population mean.
+## The histogram of the samples means roughly resembles 
+## a histogram of data that comes from a normal distribution.
+
 ## The central limit theorem states that the average of a large number of
 ## independent random variables will be approximately normally distributed.
 
