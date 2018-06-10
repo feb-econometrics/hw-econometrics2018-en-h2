@@ -73,7 +73,7 @@ ggplot(data = wines) + stat_qq(aes(sample = Price))
 
 ## g)
 
-within(winesSummary, {
+within(winesByTempSummary, {
   lower <- meanPrice - qt(0.95, df = nGroup - 1) * sdPrice / sqrt(nGroup)
   upper <- meanPrice + qt(0.95, df = nGroup - 1) * sdPrice / sqrt(nGroup)
 })
